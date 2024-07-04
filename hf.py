@@ -70,7 +70,7 @@ if __name__ == '__main__':
         'ermu2001/pllava-13b',
     ]
     for repo_id in repo_ids:
-        local_dir = repo_id.replace('ermu2001', 'MODELS')
+        local_dir = repo_id
         snapshot_download(
             repo_id,
             local_dir=local_dir,
